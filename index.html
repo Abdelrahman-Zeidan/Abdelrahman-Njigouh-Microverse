@@ -6,20 +6,20 @@
     <link rel="stylesheet" href="css/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <style>
-  body {
-background-color: lightgreen;
-}
+    body {
+      background-color: white;
+    }
 
-@media only screen and (max-width: 600px) {
-body {
-  background-color: lightblue;
-}
-}
+    @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    }
   </style>
 
   </head>
@@ -40,41 +40,62 @@ body {
 
     -->
 
-
-    <nav class="navbar navbar-default" id="navbar">
+  
+    <nav class="navbar navbar-inverse" id="navbar">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
-
+          <a class="navbar-brand" href="#">Portofolio</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#profile-link">Contact</a></li>
         </ul>
       </div>
-     <a href="#bottom">Bottom of document</a>
     </nav>
 
+    <div class="container">
+      <div class="row">
+        <section id="welcome-section">
+
+          <h1 class="welcome-section-head">Hey I am Mimic</h1>
+          <h4 class="welcome-section-body-1">a web developer</h4>
+          <p class="welcome-section-body-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nobis! Harum, inventore! Nobis cumque cum eaque labore sit eveniet libero quae reiciendis? Totam, nam nulla quo consequatur nobis amet quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis autem modi maiores voluptate esse iusto fugiat asperiores nulla nobis atque, aspernatur corrupti magni qui! Doloremque quia eius voluptatibus tempore atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda ipsam saepe quos animi quidem natus modi accusamus pariatur unde, rem laborum ipsa qui. Neque quasi suscipit ab blanditiis eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus animi facilis explicabo? Eum odit omnis dolorem ex dicta possimus sint dignissimos itaque enim quos non illum impedit, aspernatur, sapiente nemo.</p>
+
+        </section>
+      </div>
+
+      <div class="row">
+          <section id="projects">
+          <h1 class="project-tile">Projects</h1>
+
+          <div class="project-describtion">
+            <h3>Project 1</h3>
+            <img src="css/images/project1.png" alt="Project 1" class="project-image">
+            <a href="#">Project1</a>
+          </div>
+
+          <div class="project-describtion">
+            <h3>Project 2</h3>
+            <img src="css/images/project2.jpg" alt="Project 1" class="project-image">
+            <a href="#">Project1</a>
+          </div>
+
+          <div class="project-describtion">
+            <h3>Project 3</h3>
+            <img src="css/images/project3.jpg" alt="Project 1" class="project-image">
+            <a href="#">Project1</a>
+          </div>
+          </section>
+      </div>
+
+      <div class="profile-link">
+        <a href="https://github.com/Abdelrahman-Zeidan/Abdelrahman-Njigouh-Microverse" id="profile-link" target="_blank">Github</a>
+      </div>
+
+    </div>
 
 
-
-    <section id="welcome-section">
-
-      <h1> Personnal Portfolio</h1>
-
-    </section>
-
-    <section id="projects">
-      <h1 class="project-tile">Project Tile</h1>
-
-      <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage"></a>
-    </section>
-
-    <a href="https://github.com/Abdelrahman-Zeidan/Abdelrahman-Njigouh-Microverse" id="profile-link" target="_blank">Github</a>
-
-    <div id="bottom">Bottom</div>
 
     <script  src="js/index.js"></script>
   </body>
